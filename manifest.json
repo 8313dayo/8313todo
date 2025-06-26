@@ -1,0 +1,67 @@
+
+{
+  "name": "Smart Todo - スマートTodoアプリ",
+  "short_name": "Smart Todo",
+  "description": "習慣化と進捗管理で目標を達成するスマートなTodoアプリ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#11052C",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "utilities", "lifestyle"],
+  "lang": "ja",
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png", 
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "新しいタスク",
+      "short_name": "新規タスク",
+      "description": "新しいタスクを素早く追加",
+      "url": "/?action=new-task",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "今日のタスク",
+      "short_name": "今日",
+      "description": "今日のタスクを確認",
+      "url": "/?filter=today",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "scope": "/",
+  "id": "smart-todo-app"
+}
